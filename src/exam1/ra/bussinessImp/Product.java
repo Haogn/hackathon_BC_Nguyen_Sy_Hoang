@@ -123,7 +123,7 @@ public class Product implements ISHop {
 
         // tieu de
         while (true) {
-            System.out.println("Nhap vao tieu de danh muc");
+            System.out.println("Nhap vao tieu de san pham");
             String tieude = sc.nextLine();
             if (tieude.trim().isEmpty()) {
                 System.err.println("Mo ta danh muc khong dc de rong . Vui long nhap lai ❤");;
@@ -135,7 +135,7 @@ public class Product implements ISHop {
 
         // mo ta san pham
         while (true) {
-            System.out.println("Nhap vao mo ta danh muc");
+            System.out.println("Nhap vao mo ta san pham");
             String mota = sc.nextLine();
             if (mota.trim().isEmpty()) {
                 System.err.println("Mo ta danh muc khong dc de rong . Vui long nhap lai ❤");;
